@@ -294,7 +294,7 @@ img {
 }
 
 .home__social-icon:hover{
-  color: var(--first-color-alt);
+  color: var(--first-color);
 }
 
 .home__blob{
@@ -1045,7 +1045,7 @@ img {
   font-size: var(--smaller-font-size);
   text-align: center;
   color: var(--text-color-light);
-  color: #FFF;
+  color: #00095d;
   margin-top: var(--mb-3);
 }
 
@@ -1054,7 +1054,7 @@ img {
 .footer__subtitle,
 .footer__link,
 .footer__social{
-  color: #FFF;
+  color: #00095d;
 }
 
 
