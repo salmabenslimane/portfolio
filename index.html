@@ -989,20 +989,18 @@
                             <p><a class="contact__subtitle" href="mailto:salma.benslimane@centrale-casablanca.ma">salma.benslimane@centrale-casablanca.ma</a></p>
                         </div>
                     </div>
+        
                 </div>
         
-                <!-- Use the Netlify form format -->
-                <form name="contact" netlify>
+                <form name="contact" netlify class="contact__form grid">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="name" class="contact__label">Full Name</label>
-                            <input type="text" placeholder="Enter full name" class="contact__input" id="name" name="name">
-                            <span id="name-error" class="contact__subtitle"></span>
+                            <input type="text" placeholder="Enter full name" class="contact__input" id="name" name="name" required>
                         </div>
                         <div class="contact__content">
                             <label for="email" class="contact__label">Email</label>
-                            <input type="email" placeholder="Enter email address" class="contact__input" id="email" name="email">
-                            <span id="email-error" class="contact__subtitle"></span>
+                            <input type="email" placeholder="Enter email address" class="contact__input" id="email" name="email" required>
                         </div>
                     </div>
                     <div class="contact__content">
@@ -1011,15 +1009,18 @@
                     </div>
                     <div class="contact__content">
                         <label for="message" class="contact__label">Message</label>
-                        <textarea name="message" cols="0" rows="7" placeholder="Enter your message" class="contact__input" id="message"></textarea>
-                        <span id="message-error" class="contact__subtitle"></span>
+                        <textarea name="message" cols="0" rows="7" placeholder="Enter your message" class="contact__input" id="message" required></textarea>
                     </div>
                     <div>
-                        <button type="submit" class="button button--flex">Send Message</button>
+                        <button type="submit" class="button button--flex">
+                            Send Message
+                            <i class="uil uil-message button__icon"></i>
+                        </button>
                     </div>
                 </form>
             </div>
         </section>
+
 
 
 
