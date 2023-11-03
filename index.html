@@ -991,14 +991,12 @@
                     </div>
                 </div>
         
-                <!-- Add the Netlify form attributes -->
-                <form name="contact" method="POST" data-netlify="true" class="contact__form grid">
-                    <input type="hidden" name="form-name" value="contact">
-        
+                <!-- Use the Netlify form format -->
+                <form name="contact" netlify>
                     <div class="contact__inputs grid">
                         <div class="contact__content">
-                            <label for="fullName" class="contact__label">Full Name</label>
-                            <input type="text" placeholder="Enter full name" class="contact__input" id="fullName" name="fullName">
+                            <label for="name" class="contact__label">Full Name</label>
+                            <input type="text" placeholder="Enter full name" class="contact__input" id="name" name="name">
                             <span id="name-error" class="contact__subtitle"></span>
                         </div>
                         <div class="contact__content">
@@ -1022,6 +1020,7 @@
                 </form>
             </div>
         </section>
+
 
 
         <!--==================== FOOTER ====================-->
