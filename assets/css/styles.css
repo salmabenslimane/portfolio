@@ -453,6 +453,11 @@ img {
   row-gap: 0;
 }
 
+.skills__center {
+    display: flex;
+    justify-content: center;
+}
+
 .skills__header{
   display: flex;
   align-items: center;
