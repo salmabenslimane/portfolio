@@ -742,12 +742,8 @@ img {
   margin-right: var(--mb-0-25);
 }
 
-.projects__content.project1 {
-  background-image: url('PredictA.jpg'); 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+
+
 
 
 /* Active Modal */
